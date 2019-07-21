@@ -7,5 +7,6 @@ A simple custom OS for the Raspberry Pi 3B+
   - tar -xjf gcc-arm-none-eabi-8-2018-q4-major.tar.bz2
 
 2. Emulator (QEMU, v2.11 or later)
+  - sudo dnf install glib2-devel  <--- Needed for QEMU
   - sudo dnf install qemu-system-arm-core
   - check install with: qemu-system-arm --version
